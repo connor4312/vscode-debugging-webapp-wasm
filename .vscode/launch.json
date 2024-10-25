@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "msedge",
+      "url": "http://localhost:3000/main.html",
+      "enableDWARF": false,
+      "webRoot": "${workspaceFolder}",
+      "trace": { "logFile": "${workspaceFolder}/log.txt" },
+      "sourceMapPathOverrides": {
+        "file:///src/*": "${workspaceFolder}/*",
+      }
+    }
+  ]
+}
